@@ -1,4 +1,4 @@
-- hosts: "*"
+- name: Install wireguard
   become: yes
   tasks:
     - name: apt
